@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ProfileList>
+    <DefaultProfileList>
+        <ProfileFile>
+            <Filename>default.dtl</Filename>
+            <Name>Default</Name>
+            <Description>Presence mode, 20 minute timeout</Description>
+        </ProfileFile>
+        <ProfileFile>
+            <Filename>cellularoffice.dtl</Filename>
+            <Name>Cellular Office</Name>
+            <Description>With DALI Power Save Mode</Description>
+        </ProfileFile>
+        <ProfileFile>
+            <Filename>openplanoffice.dtl</Filename>
+            <Name>Open Plan Office</Name>
+            <Description>With DALI Power Save Mode</Description>
+        </ProfileFile>
+        <ProfileFile>
+            <Filename>classroom1.dtl</Filename>
+            <Name>Classroom 1</Name>
+            <Description>Offset dimming,switched whiteboard</Description>
+        </ProfileFile>
+        <ProfileFile>
+            <Filename>classroom2.dtl</Filename>
+            <Name>Classroom 2</Name>
+            <Description>3 channel control </Description>
+        </ProfileFile>
+    </DefaultProfileList>
+    <CustomProfileList>
+    </CustomProfileList>
+</ProfileList>

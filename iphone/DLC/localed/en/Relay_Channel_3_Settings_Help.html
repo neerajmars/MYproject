@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>jQuery UI Accordion - Default functionality</title>
+                <link rel="stylesheet" href="../../jquery-ui.css">
+                    
+                        <script src="../../jquery-1.12.4.js"></script>
+                        <script src="../../jquery-ui.js"></script>
+                        <script>
+                            $( function() {
+                              $( "#accordion" ).accordion({
+                                collapsible: true,
+                                active : 'none'
+                                                         
+                                                          
+                            });
+                              } );
+                            </script>
+    </head>
+    <body>
+        
+        <div> <img width="100%" src="../../iDimOrbitGuideImage@2x.png"> </div>
+		<h1>Relay Channel 3 Settings Help</h1>
+		<div style="text-align:justify;">
+		<p>You can change the behaviour of the relay from this page.</p>
+		</div>
+		<h4>Features: (Touch for more information) </h4>
+        <div id="accordion">
+            <h3>Manual Control Only</h3>
+            <div>
+				<p>The channel will only respond to manual switch control and will not be controlled by the PIR and Timers.</p>
+            </div>
+			
+			
+			 <h3>PIR/Timer/Manual</h3>
+			 <div>
+			Responds to presence detection from the PIR, will turn off automatically when no presence is detected and can be manually controlled.  
+			  </div>
+            <h3>DALI Power Save Mode</h3>
+			<div>
+			   Enable this mode when using the relay to control the mains power to DALI luminaires connected to iDim Orbit for additional energy savings.  
+			   The manual switch input for the Relay is disabled in this mode.  
+			   The relay turns on whenever either DALI channel is on and turns off 30 seconds after both channels are at 0%.
+			</div>
+			
+			<h3>Time Clock Control</h3>
+            <div>
+				<p>
+				This mode provides automatic time control of the relay.  It turns the relay on or off at the start of Profile 1 and Profile 2.  Manual control of the relay is still possible in this mode.
+			  </p>
+            </div>
+          
+		 
+        </div>
+        
+        
+    </body>
+</html>

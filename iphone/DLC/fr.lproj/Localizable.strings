@@ -1,0 +1,152 @@
+/* 
+  Localizable.strings
+  DLC
+
+  Created by A King on 18/02/2013.
+  Copyright (c) 2013 A King. All rights reserved.
+*/
+
+//GENERAL
+"GEN_CANCEL" = "Cancel";
+"GEN_UNKNOWN" = "Unknown";
+"GEN_YES" = "Yes";
+"GEN_NO" = "No";
+"GEN_UPDATE" = "Update";
+"OK" = "Ok";
+
+"EXPIRED_VERSION" = "EXPIRED VERSION";
+"PLEASE_UPDATE_NEW_VERSION" = "Veuillez mettre à jour la dernière version d'Appstore";
+
+// FIND VC
+"FIND_FILDER_BY_STRENGTH" ="Filtrer par force du signal";
+"FIND_SERCHING" ="Recherche...";
+
+"FIND_CONTROLLERS_FOUND" = "Orbites iDim trouvées";
+"FIND_NO_CONTROLLERS_FOUND" = "Aucune orbite iDim trouvée";
+//"FIND_CONTROLLERS_FOUND" = "Controllers Found";
+//"FIND_NO_CONTROLLERS_FOUND" = "No Controllers Found";
+"FIND_NONE" = "None";
+"FIND_LOGIN" = "Login";
+"FIND_DISCONNECT" = "Disconnect";
+"CONTINUE" = "Continue";
+
+"FIND_ENTER_PASSCODE" = "Veuillez entrer le mot de passe";
+"DO_YOU_WANT_TO_DISCONNECT_OR_CONTINUE" = "Voulez-vous vous déconnecter ou continuer?";
+"FIND_NOT_CONNECT" = "Unable to connect.";
+"FIND_INCORRECT_PASSCODE" = "An incorrect password was entered.";
+"FIND_UNABLE_TO_READ_PASSCODE" = "Press 'OK', then 'Scan' to list currently available devices."; //"Unable to read password from DLC.";
+"FIND_RELOGIN" = "Re-login";
+"FIND_LOGIN_AGAIN" = "To complete the device name change, please re-select and login to this device.";
+"FIND_EDIT_PASSCODE" = "New password";
+"FIND_ENTER_NEW_PASSCODE" = "Enter a new digit password (maximum 5 characters, excluding '00000'):";
+"FIND_CONFIRM_NEW_PASSCODE" = "Re-confirm your new password:";
+"FIND_MISMATCH_PASSCODE" = "Entered passwords do not match.";
+"FIND_PASSWORD_CHANGED" = "Password successfully changed.";
+"FIND_DEFAULT_PASSWORD_SET" = "Setting the password to '00000' is invalid.";
+"FIND_CHANGE" = "Change";
+"FIND_QUIT" = "Quit";
+"FIND_WEBSITE" = "Lien de site Web";
+"FIND_CREDITS" = "App Guide Link";
+//"FIND_WORK_OFFLINE" = "Work offline";
+"FIND_EDIT_PASSWORD" = "Edit password";
+"FIND_EDIT_DEVICENAME" = "Edit device name";
+"FIND_NEW_DEVICENAME" = "New device name";
+"FIND_ENTER_NEW_DEVICENAME" = "Enter a new device name (maximum 20 characters):";
+"HELP_TITLE_SEARCH" = "Page de recherche";
+"ABOUT_TITLE_SEARCH" = "Sur";
+
+// STATUS VC
+"STATUS_OFF" = "De";
+"STATUS_ON" = "SUR";
+"STATUS_LOW" = "LO";
+"STATUS_HIGH" = "HI";
+"STATUS_HELP" = "Aidez-moi";
+"STATUS_SWITCH_INPUT" = "Entrées de commutateur";
+"STATUS_SINGLE_POLE" = "Commutateur unipolaire";
+"STATUS_DOUBLE_POLE" = "Commutateur à double pôle";
+"DALI_RESET_1" ="DALI 1 Réinitialiser";
+"STATUS_OUTPUT_SETTING" = "Paramètre de sortie";
+"MANUAL_CONTORL_ONLY" = "Commande manuelle seulement";
+"PIR_TIMER_MANUAL" = "PIR/Minuteur/Manuel";
+"MIMIC_CHANNEL_1" = "Mimic Canal 1";
+"DALI_RESET_2" ="DALI 2 Réinitialiser";
+
+"DALI_POWER_SAVE_MODE" = "Mode d'économie d'énergie DALI";
+"TIME_CLOCK_CONTROL" = "Contrôle horloge";
+"EXIT_DELAY" = "Délai de sortie";
+"LIVE_STATUS_PAGE_HELP" = "Aide sur la page d'état en direct";
+
+//PROFILE VC & SCHEDULE VC
+
+"PROFILE_SETTING" = "Paramètres de profil";
+"PROFILE_1_SEG" = "Profil 1";
+"PROFILE_2_SEG" = "Profil 2";
+"CONSTANTS_LIGHT_LEVEL" = "Réglage du niveau de lumière constant";
+"ABSENCE_MODE" = "Mode Absence";
+ "BRIGHT_OUT" = "Luminosité";
+"CONSTANT_LIGHT" = "Lumière constante";
+
+"EDIT_TIMEOUTS" = "modifier Délais";
+"ON_LEVEL" = "Au niveau :";
+"OCCUPANCY_TIMEOUT" = "Durée d'occupation :";
+"POWER_SAVE_LIGHT_LEVEL" = "Niveau d'économie d'énergie  :";
+"TRANSITION_TIMEOUT" = "Délai de transition:";
+"PRO_ALL_BACK" = "arrière";
+"PROFILE_SETTING_HELP" = "Définition du profil Aide";
+
+"SCHEDULER_PAGE_HELP" = "Aide de la page Scheduler";
+
+//FILE MANAGER VC
+"FM_TITLE"="Gérer les fichiers";
+"FM_DEFAULT_PROFILES" = "Default profiles";
+"FM_LOCAL_PROFILES" = "Local profiles";
+"FM_USER_PROFILES" = "User profiles";
+"FM_CUSTOM_APPLICATION_FILES" = "Fichiers d'application personnalisés";
+"FM_APPLICATION_FILES" = "Fichiers d'application";
+"FM_CREATE_CUSTOM_FILE" = "Fichiers personnalisés";
+"FM_CREATE_BLANK_PROFILE" = "Créer un profil vide";
+"FM_CREATE_NEW_BLANK_PROFILE" = "Créer un nouveau profil vide";
+"FM_WARNING" = "La création d'un nouveau profil affichera un profil vide au lieu du profil existant. Voulez-vous continuer?";
+"FM_LOADING_PROFILE_FROM_FILE" = "Chargement du profil à partir du fichier";
+
+//"FM_LOADING_PROFILE_WARNING" = "Loading this profile will display the file settings instead of the existing profile. Would you like to continue?";
+"NO_BLANK_SPACE" = "Le nom de fichier ne doit pas contenir d'espace.";
+
+"FM_WHAT_WOULD_YOU_LIKE_TO_DO_WITH_THE_SELECTED_FILE" = "Que souhaitez-vous faire avec le fichier sélectionné?";
+
+"FM_LOADING_PROFILE_WARNING" = "L'importation du fichier remplacera les paramètres actuels de l'application dans les profils 1 et 2.";
+
+"IT_WILL_OVERWRITE_EXISTING_SETTING" = "Il remplacera les paramètres existants";
+"DO_YOU_WANT_TO_PROCEED" = "Voulez-vous poursuivre?";
+
+ "FM_DEFAULT"= "Défaut";
+  "FM_OFFICE" ="Bureau";
+  "FM_CLASSROOMS"="Salles de classe";
+ "APPLICATION_FILES_PAGE_HELP" = "Aide pour les fichiers d'application";
+
+//TIMERS VC
+
+//WEEK VC
+"WEEK_PROFILE1" = "Profil 1";
+"WEEK_PROFILE2" = "Profil 2";
+"WEEK_MONDAY" = "Monday";
+"WEEK_TUESDAY" = "Tuesday";
+"WEEK_WEDNESDAY" = "Wednesday";
+"WEEK_THURSDAY" = "Thursday";
+"WEEK_FRIDAY" = "Friday";
+"WEEK_SATURDAY" = "Saturday";
+"WEEK_SUNDAY" = "Sunday";
+"WEEK_PROFILES" = "Profiles";
+"WEEK_DAYS" = "Days";
+"WEEK_HOURS" = "Hours";
+"WEEK_MINUTES" = "Minutes";
+
+//PURCHASE VC
+"PURCHASE_WANT_QU" = "Do you  want to purchase access to all DLCs?";
+"PURCHASE_TITLE" = "In-app purchase";
+"PURCHASE_DISABLED_WARNING" = "In-app purchases are currently disabled.";
+"PURCHASE_SORRY" = "Sorry, could not find any purchases to make.";
+"PURCHASE_SUCCESS" = "Your purchase was successful.";
+"PURCHASE_CANCELLED" = "Sorry, your payment was cancelled so no purchase was made.";
+
+//NAME FILE VC

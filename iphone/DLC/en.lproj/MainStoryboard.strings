@@ -1,0 +1,246 @@
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "0O5-do-UtC"; */
+"0O5-do-UtC.text" = "00:00";
+
+/* Class = "UILabel"; text = "2. Tap the required Sensor and enter the Passcode, for a new Sensor, enter 00000. If a new Sensor then you are required to change the Passcode (Recommend using a ‘Building’ passcode)."; ObjectID = "0ui-43-iPa"; */
+"0ui-43-iPa.text" = "2. Tap the required Sensor and enter the Passcode, for a new Sensor, enter 00000. If a new Sensor then you are required to change the Passcode (Recommend using a ‘Building’ passcode).";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1If-Wf-aQY"; */
+"1If-Wf-aQY.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Scheduler"; ObjectID = "1no-pa-ng0"; */
+"1no-pa-ng0.title" = "Scheduler";
+
+/* Class = "UILabel"; text = "Could not load web page."; ObjectID = "29h-bA-U6K"; */
+"29h-bA-U6K.text" = "Could not load web page.";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "3V8-65-Ty2"; */
+"3V8-65-Ty2.text" = "00:00";
+
+/* Class = "UILabel"; text = "Profile"; ObjectID = "3eN-LD-FTj"; */
+"3eN-LD-FTj.text" = "Profile";
+
+/* Class = "UILabel"; text = "Relay Channel 3"; ObjectID = "4JK-YE-Jgn"; */
+"4JK-YE-Jgn.text" = "Relay Channel 3";
+
+/* Class = "UILabel"; text = "65"; ObjectID = "63a-0o-Vzr"; */
+"63a-0o-Vzr.text" = "65";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "65D-1g-D1b"; */
+"65D-1g-D1b.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Application File Heading"; ObjectID = "6RX-FI-yLW"; */
+"6RX-FI-yLW.text" = "Application File Heading";
+
+/* Class = "UIBarButtonItem"; title = "back"; ObjectID = "6e1-Wc-gtq"; */
+"6e1-Wc-gtq.title" = "back";
+
+/* Class = "UINavigationItem"; title = "App Guide"; ObjectID = "73f-FO-dpy"; */
+"73f-FO-dpy.title" = "App Guide";
+
+/* Class = "UILabel"; text = "Output"; ObjectID = "7BS-fs-LYa"; */
+"7BS-fs-LYa.text" = "Output";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "7IS-gu-6WJ"; */
+"7IS-gu-6WJ.text" = "00:00";
+
+/* Class = "UIButton"; normalTitle = "Go To Current Time"; ObjectID = "7l0-uC-xEb"; */
+"7l0-uC-xEb.normalTitle" = "Go To Current Time";
+
+/* Class = "UILabel"; text = "5. Conduct an Occupancy Walk Test in Status Screen the PIR trigger will change. Red for Absence or Green for Presence."; ObjectID = "8CM-Mn-m8G"; */
+"8CM-Mn-m8G.text" = "5. Conduct an Occupancy Walk Test in Status Screen the PIR trigger will change. Red for Absence or Green for Presence.";
+
+/* Class = "UINavigationItem"; title = "helpwebview"; ObjectID = "8CR-ai-R8q"; */
+"8CR-ai-R8q.title" = "helpwebview";
+
+/* Class = "UILabel"; text = "120 mins"; ObjectID = "8Um-fI-nty"; */
+"8Um-fI-nty.text" = "120 mins";
+
+/* Class = "UILabel"; text = "3. In Status tap the Dim Level to ensure you are connected to the correct Sensor\n"; ObjectID = "8hE-Ge-axq"; */
+"8hE-Ge-axq.text" = "3. In Status tap the Dim Level to ensure you are connected to the correct Sensor\n";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "8mG-xc-saA"; */
+"8mG-xc-saA.text" = "00:00";
+
+/* Class = "UINavigationItem"; title = "Live Status"; ObjectID = "9F8-kz-2hn"; */
+"9F8-kz-2hn.title" = "Live Status";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9tP-Jz-5pQ"; */
+"9tP-Jz-5pQ.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "Edit Schedule"; ObjectID = "AKa-aM-rg5"; */
+"AKa-aM-rg5.title" = "Edit Schedule";
+
+/* Class = "UILabel"; text = "To configure more than 5 unique DLC-One controllers, an in-app purchase is required."; ObjectID = "Afk-Ww-oK0"; */
+"Afk-Ww-oK0.text" = "To configure more than 5 unique DLC-One controllers, an in-app purchase is required.";
+
+/* Class = "UILabel"; text = "Walk Test"; ObjectID = "CgR-FF-qjs"; */
+"CgR-FF-qjs.text" = "Walk Test";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "Cw8-UW-JID"; */
+"Cw8-UW-JID.text" = "00:00";
+
+/* Class = "UILabel"; text = "Filename"; ObjectID = "Ery-HE-Spo"; */
+"Ery-HE-Spo.text" = "Filename";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "FA8-bM-Uv2"; */
+"FA8-bM-Uv2.text" = "Description";
+
+/* Class = "UIBarButtonItem"; title = "back"; ObjectID = "IJa-jQ-dNm"; */
+"IJa-jQ-dNm.title" = "back";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "IMi-bp-nat"; */
+"IMi-bp-nat.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Timer"; ObjectID = "IiC-Ck-yYA"; */
+"IiC-Ck-yYA.text" = "Timer";
+
+/* Class = "UIBarButtonItem"; title = "Sync"; ObjectID = "KwE-37-dht"; */
+"KwE-37-dht.title" = "Sync";
+
+/* Class = "UINavigationItem"; title = "Profile"; ObjectID = "L5e-Oa-wMe"; */
+"L5e-Oa-wMe.title" = "Profile";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "OMC-Qw-WxV"; */
+"OMC-Qw-WxV.text" = "Title";
+
+/* Class = "UITabBarItem"; title = "Search"; ObjectID = "PZH-NA-3H8"; */
+"PZH-NA-3H8.title" = "Search";
+
+/* Class = "UILabel"; text = "ON"; ObjectID = "Psg-SN-ELq"; */
+"Psg-SN-ELq.text" = "ON";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "Qza-on-d5H"; */
+"Qza-on-d5H.title" = "Profile";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "RPL-J4-Y6h"; */
+"RPL-J4-Y6h.text" = "Title";
+
+/* Class = "UILabel"; text = "i am here english"; ObjectID = "RnV-6h-g2H"; */
+"RnV-6h-g2H.text" = "i am here english";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "SHt-XU-fPB"; */
+"SHt-XU-fPB.text" = "00:00";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "SWd-BD-NDZ"; */
+"SWd-BD-NDZ.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "Manage Files"; ObjectID = "SrX-30-TwW"; */
+"SrX-30-TwW.title" = "Manage Files";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "TKL-zT-Nse"; */
+"TKL-zT-Nse.text" = "00:00";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "Tyw-BQ-uyh"; */
+"Tyw-BQ-uyh.text" = "00:00";
+
+/* Class = "UILabel"; text = "Light Sensor"; ObjectID = "WBs-sM-COE"; */
+"WBs-sM-COE.text" = "Light Sensor";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "WXd-9A-wM5"; */
+"WXd-9A-wM5.text" = "Subtitle";
+
+/* Class = "UIButton"; normalTitle = "In App Purchase - £x.xx"; ObjectID = "ZDx-JY-TSU"; */
+"ZDx-JY-TSU.normalTitle" = "In App Purchase - £x.xx";
+
+/* Class = "UINavigationItem"; title = "Scheduler"; ObjectID = "azh-jP-5TM"; */
+"azh-jP-5TM.title" = "Scheduler";
+
+/* Class = "UIBarButtonItem"; title = "Profile"; ObjectID = "bKQ-g1-UBK"; */
+"bKQ-g1-UBK.title" = "Profile";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "bhC-VX-i2a"; */
+"bhC-VX-i2a.normalTitle" = "Save";
+
+/* Class = "UINavigationItem"; title = "Helvar"; ObjectID = "bkK-Wm-8im"; */
+"bkK-Wm-8im.title" = "Helvar";
+
+/* Class = "UIBarButtonItem"; title = "back"; ObjectID = "csj-rv-9ep"; */
+"csj-rv-9ep.title" = "back";
+
+/* Class = "UILabel"; text = "PIR Status"; ObjectID = "dCc-9F-E4M"; */
+"dCc-9F-E4M.text" = "PIR Status";
+
+/* Class = "UILabel"; text = "Enable"; ObjectID = "edL-If-gye"; */
+"edL-If-gye.text" = "Enable";
+
+/* Class = "UIBarButtonItem"; title = "back"; ObjectID = "g8M-vh-Mys"; */
+"g8M-vh-Mys.title" = "back";
+
+/* Class = "UILabel"; text = "1. In Search tap the Scan at the top of the screen (must be within range) to find Sensors."; ObjectID = "hSp-dn-xjI"; */
+"hSp-dn-xjI.text" = "1. In Search tap the Scan at the top of the screen (must be within range) to find Sensors.";
+
+/* Class = "UILabel"; text = "65"; ObjectID = "heb-mL-cDg"; */
+"heb-mL-cDg.text" = "65";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "iQQ-wf-VdY"; */
+"iQQ-wf-VdY.text" = "00:00";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "iyL-al-gCc"; */
+"iyL-al-gCc.title" = "Save";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "jNU-9f-Jye"; */
+"jNU-9f-Jye.text" = "00:00";
+
+/* Class = "UITabBarItem"; title = "Status"; ObjectID = "k15-v4-MRF"; */
+"k15-v4-MRF.title" = "Status";
+
+/* Class = "UILabel"; text = "DALI Channel 2"; ObjectID = "kfQ-br-1dS"; */
+"kfQ-br-1dS.text" = "DALI Channel 2";
+
+/* Class = "UIBarButtonItem"; title = "back"; ObjectID = "kkB-ql-IES"; */
+"kkB-ql-IES.title" = "back";
+
+/* Class = "UINavigationItem"; title = "Filename"; ObjectID = "m7R-lM-Shr"; */
+"m7R-lM-Shr.title" = "Filename";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "mxc-Og-2bl"; */
+"mxc-Og-2bl.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Set Constant Light"; ObjectID = "obf-ho-QI7"; */
+"obf-ho-QI7.normalTitle" = "Set Constant Light";
+
+/* Class = "UILabel"; text = "Please pick a profile and a day below then retrieve its current value or configure a new start time."; ObjectID = "pqw-e9-Xwg"; */
+"pqw-e9-Xwg.text" = "Please pick a profile and a day below then retrieve its current value or configure a new start time.";
+
+/* Class = "UINavigationItem"; title = "Purchase App"; ObjectID = "rLq-hy-dGk"; */
+"rLq-hy-dGk.title" = "Purchase App";
+
+/* Class = "UILabel"; text = "Profile 1"; ObjectID = "riu-TQ-AYO"; */
+"riu-TQ-AYO.text" = "Profile 1";
+
+/* Class = "UILabel"; text = "DALI Channel 1"; ObjectID = "sUO-DJ-tLS"; */
+"sUO-DJ-tLS.text" = "DALI Channel 1";
+
+/* Class = "UILabel"; text = "The Sensor is now in operational mode. Advanced set-up an now be completed.\nFor further details refer to instruction sheet."; ObjectID = "tYb-eK-vhH"; */
+"tYb-eK-vhH.text" = "The Sensor is now in operational mode. Advanced set-up an now be completed.\nFor further details refer to instruction sheet.";
+
+/* Class = "UILabel"; text = "Profile 2"; ObjectID = "v8d-7G-Lpg"; */
+"v8d-7G-Lpg.text" = "Profile 2";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "vOy-DD-7DM"; */
+"vOy-DD-7DM.text" = "00:00";
+
+/* Class = "UINavigationItem"; title = "Search"; ObjectID = "vPg-9t-mqT"; */
+"vPg-9t-mqT.title" = "Search";
+
+/* Class = "UITabBarItem"; title = "Manage Files"; ObjectID = "vZW-pK-XAb"; */
+"vZW-pK-XAb.title" = "Manage Files";
+
+/* Class = "UILabel"; text = "4. In Search, tap Edit Device Name and change the name to match the room/area."; ObjectID = "vfs-TB-OiQ"; */
+"vfs-TB-OiQ.text" = "4. In Search, tap Edit Device Name and change the name to match the room/area.";
+
+/* Class = "UILabel"; text = "Profile 1"; ObjectID = "wf7-lY-YGo"; */
+"wf7-lY-YGo.text" = "Profile 1";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xHq-d5-ziw"; */
+"xHq-d5-ziw.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "xXE-BD-J5F"; */
+"xXE-BD-J5F.text" = "00:00";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "zPd-NY-xkC"; */
+"zPd-NY-xkC.text" = "00:00";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "zXq-Ef-oAF"; */
+"zXq-Ef-oAF.text" = "00:00";

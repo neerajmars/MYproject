@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>jQuery UI Accordion - Default functionality</title>
+                <link rel="stylesheet" href="../../jquery-ui.css">
+                    
+                        <script src="../../jquery-1.12.4.js"></script>
+                        <script src="../../jquery-ui.js"></script>
+                        <script>
+                            $( function() {
+                              $( "#accordion" ).accordion({
+                                collapsible: true,
+                                active : 'none'
+                                                         
+                                                          
+                            });
+                              } );
+                            </script>
+    </head>
+    <body>
+        
+        <div> <img width="100%" src="../../iDimOrbitGuideImage@2x.png"> </div>
+		<h1>DALI Channel 1 Settings Help</h1>
+		<div style="text-align:justify;">
+		<p>DALI Channel 1 is always connected to the PIR, Timers and manual switch inputs.  When constant light is enabled, DALI channel 1 will be controlled automatically to meet the target level.
+        </p>
+		
+		</div>
+		<h4>Features: (Touch for more information) </h4>
+        <div id="accordion">
+            <h3>Switch Inputs</h3>
+            <div>
+				<p>You can modify the functionality of the switch inputs for DALI channel 1 (inputs 2 and 3 on the manual switch interface).  This enables the use of different retractive (momentary) switch types:
+Single-Pole Switch A simple push to make switch.  
+Double-Pole Switch = a centre-biased switch with an up and a down position.
+For more information, please refer to the Installation Guide.</p>
+            </div>
+			
+            <h3>DALI 1 Reset</h3>
+			
+            <div>
+				<p>
+				This can be used to reset settings in connected DALI load devices to optimise their control performance on iDim Orbit.
+				</p>
+            </div>
+         
+        </div>
+        
+        
+    </body>
+</html>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>jQuery UI Accordion - Default functionality</title>
+                <link rel="stylesheet" href="../../jquery-ui.css">
+                    
+                        <script src="../../jquery-1.12.4.js"></script>
+                        <script src="../../jquery-ui.js"></script>
+                        <script>
+                            $( function() {
+                              $( "#accordion" ).accordion({
+                                collapsible: true,
+                                active : 'none'
+                                                         
+                                                          
+                            });
+                              } );
+                            </script>
+    </head>
+    <body>
+        
+        <div> <img width="100%" src="../../iDimOrbitGuideImage@2x.png"> </div>
+		<h1>Edit Timeouts Help</h1>
+		<div style="text-align:justify;">
+		<p>Use this page to adjust the levels and timeout periods.</p>
+		</div>
+		<h4>Features: (Touch for more information) </h4>
+        <div id="accordion">
+            <h3>On Level</h3>
+            <div>
+				<p>This enables channels to be manually turned off in Presence Mode.  
+				Sets the level at which the DALI outputs will come on to when activated by the PIR or manual switch. 
+				Use the slider to change the level or touch on the value to type in a particular level.
+				</p>
+            </div>
+			
+			
+			 <h3>Occupancy Timeout</h3>
+			 <div>
+			<p>Determines how long the DALI channels linked to the PIR/Timer will stay at the On Level when no movement is detected.  Use the slider to change the time period or touch on the value to type in a particular time.</p>
+			</div>
+		  
+		  <h3>Power Save Light Level</h3>
+		   <div><p>This is the level that the DALI outputs linked to the PIR/Timer will go to at the end of the Occupancy Timeout.  Use the slider to change the level or touch on the value to type in a particular level.</p></div>
+         <h3>Transition Timeout</h3>
+		 <div><p>Determines how long the channels linked to the PIR/Timer will stay at the Power Save Light Level for during the second timeout stage.  Use the slider to change the time period, or touch on the value to type in a particular time.  Select 0 mins to disable the second timeout stage or Infinity to stop the outputs from ever going off automatically.</p></div>
+
+	 </div>
+        
+        
+    </body>
+</html>

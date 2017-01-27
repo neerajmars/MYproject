@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>jQuery UI Accordion - Default functionality</title>
+                <link rel="stylesheet" href="../../jquery-ui.css">
+                    
+                        <script src="../../jquery-1.12.4.js"></script>
+                        <script src="../../jquery-ui.js"></script>
+                        <script>
+                            $( function() {
+                              $( "#accordion" ).accordion({
+                                collapsible: true,
+                                active : 'none'
+                                                         
+                                                          
+                            });
+                              } );
+                            </script>
+    </head>
+    <body>
+        
+        <div> <img width="100%" src="../../iDimOrbitGuideImage@2x.png"> </div>
+		<div style="text-align:justify;">
+		<p>Use this page to search for iDim Orbits, connect, disconnect, edit device names and pass codes. Please ensure that your device's Bluetooth is enabled. 
+        </p>
+		
+		</div>
+		<h4>Features: (Touch for more information) </h4>
+        <div id="accordion">
+            <h3>Search</h3>
+            <div >
+				<ul>
+					 <li>Touch the search button to find nearby iDim Orbits. Can also be used to disconnect once a connection has been made. </li>
+				</ul>
+                
+            </div>
+			
+            <h3>Filter by signal strength</h3>
+			
+            <div>
+				 <ul>
+				      <li>
+					  Use this to control the number of devices displayed in the search results. 
+					  
+					  </li>
+					  <li>
+					  Move the slider all the way to the right to only display iDim Orbits with the strongest signal strength. 
+					 
+					  </li>
+					  <li>
+					   Move the slider all the way to the left to show all iDim Orbits with a signal strength strong enough to make a reliable connection.
+					 
+					  </li>
+					  <li>
+					    A scan is initiated when the slider is moved to a new position. 
+					  </li>
+				</ul>
+            </div>
+           <h3>Search results</h3>
+			
+            <div>
+		
+				 <ul>
+				      <li> 	Shows all devices within range (filtered).</li>
+					  <li>Touch on any device to make a connection. </li>
+					  <li>The default pass code is 00000. When a connection is made, the green LED on the front of iDim Orbit will start flashing. 
+					  </li>
+					  <li>Enter a new pass code when prompted.</li>
+					  <li>Alter the pass code and device name by returning to this page when connected.</li>
+					 <li>A blue tick appears next to the connected iDim Orbit. </li>
+					 <li>Touch the connected iDim Orbit again to disconnect.  </li>
+					 <li>Please contact your local Helvar representative if the pass code has been changed and lost.</li>
+				</ul>
+            </div>
+
+
+
+
+        </div>
+        
+        
+    </body>
+</html>

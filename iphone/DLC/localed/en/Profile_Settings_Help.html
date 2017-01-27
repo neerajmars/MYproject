@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>jQuery UI Accordion - Default functionality</title>
+                <link rel="stylesheet" href="../../jquery-ui.css">
+                    
+                        <script src="../../jquery-1.12.4.js"></script>
+                        <script src="../../jquery-ui.js"></script>
+                        <script>
+                            $( function() {
+                              $( "#accordion" ).accordion({
+                                collapsible: true,
+                                active : 'none'
+                                                         
+                                                          
+                            });
+                              } );
+                            </script>
+    </head>
+    <body>
+        
+        <div> <img width="100%" src="../../iDimOrbitGuideImage@2x.png"> </div>
+		<h1>Profile Settings Help</h1>
+		<div style="text-align:justify;">
+		<p>Use this page to change the way the iDim Orbit behaves and save settings as Applicaton Files.  There are two behaviour Profiles available which can operate during two different periods in a day.  To use both Profiles, please enable the Scheduler. If the Scheduler is disabled, only Profile 1 will be used.</p>
+		</div>
+		<h4>Features: (Touch for more information) </h4>
+        <div id="accordion">
+            <h3>Profile 1/Profile 2</h3>
+            <div>
+				<p>Select which Profile to view and edit.</p>
+			</div>
+			
+			
+			 <h3>Light vs Time Diagram </h3>
+			 <div>
+			<p>
+			For reference only.  Shows the relationship of the 2 stage sensor timeout:
+			<ol>
+              <li>On Level with Occupancy Timeout</li>
+               <li>Power Save Light Level with Transition Timeout</li>
+			</ol>
+			</p>
+			</div>
+		<h3>Levels and Timeouts Display<h3>
+		 <div><p>Shows the currently selected levels and timeout periods for the selected Profile.  Touch the settings button to edit.</p></div>
+		 
+		 <h3>Constant Light Level Adjust</h3>
+		 <div><p>Shows the currently stored constant light target level.  Use the + and - buttons to manually adjust the target level.  Press Sync to save the new level.</p></div>
+		 
+		 <h3>Absence Mode</h3>
+		 <div><p>When this is turned off, the sensor behaves in presence mode.  When turned on, it is in absence mode.
+Presence = auto on by PIR, auto or manual off
+Absence = manual on by switch input, auto or manual off.
+</p>
+           </div>
+		   
+		   <h3>Constant Light </h3>
+		 <div><p>Use this to enable and disable constant light for each Profile.  Please refer to the Live Status Help Page for more information. </p> </div>
+		 
+		 <h3>Bright-Out </h3>
+		 <div><p>Bright-Out stops lights being turned on if ambient light is above the constant light target level.  It can only be used in Presence Mode and if constant light is active.</p></div>
+		 
+		 <h3>Save File</h3>
+		 <div>
+		 <p>Save customised Profile settings for back-up and sharing with other users.  
+		 Insert a Filename (please do not use spaces), Application File Heading and a brief description of the settings.  
+		 Press save and they will appear in the Custom Application Files section of the Manage Files page.</p>
+		 
+		 </div>
+       
+
+	   </div>
+        
+        
+    </body>
+</html>

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>jQuery UI Accordion - Default functionality</title>
+                <link rel="stylesheet" href="../../jquery-ui.css">
+                    
+                        <script src="../../jquery-1.12.4.js"></script>
+                        <script src="../../jquery-ui.js"></script>
+                        <script>
+                            $( function() {
+                              $( "#accordion" ).accordion({
+                                collapsible: true,
+                                active : 'none'
+                                                         
+                                                          
+                            });
+                              } );
+                            </script>
+    </head>
+    <body>
+        
+        <div> <img width="100%" src="../../iDimOrbitGuideImage@2x.png"> </div>
+		<div><h1>Live Status Page Help</h1></div>
+		<div style="text-align:justify;">
+			<p>This page shows live feedback from the iDim Orbit and is used to adjust global settings which affect the behaviour of the inputs and outputs. </p>
+		</div>
+		
+		<h4>Features: (Touch for more information) </h4>
+        <div id="accordion">
+            <h3>Sync</h3>
+            <div >
+				If you make any changes to settings within the app, press Sync to save them to iDim Orbit.  The green status LED on Orbit will flash fast to show when new settings have been received.
+				
+            </div>
+			
+            <h3>Profile</h3>
+			
+            <div>
+				This shows the currently active time Profile. If the scheduler is disabled (default setting), only Profile 1 is used.  To customise profiles, go to the Profile page.  To activate the scheduler, go to the Scheduler page.
+            </div>
+           <h3>Timer</h3>
+			
+            <div>
+		      Shows the currently active timer and the time remaining: 1 = Occupancy Timer, 2 = Transition Timer.  Edit the timers from the Profile page settings.
+            </div>
+
+           <h3>DALI Channel 1</h3>
+			
+            <div>
+		     Shows the percentage output of the DALI broadcast channel.  Use the +/- buttons to manually modify the output.  Press once or press and hold to modify the level.  The output goes to the selected level once you stop modifying the level.  The settings button allows you to modify the behaviour of the inputs and output for DALI Channel 1.
+			</div>
+             <h3>DALI Channel 2</h3>
+           <div>Shows the percentage output of the DALI broadcast channel.  Use the +/- buttons to manually modify the output.  Press once or press and hold to modify the level.  The output goes to the selected level once you stop modifying the level.  The settings button allows you to modify the behaviour of the inputs and output for DALI Channel 2.</div>
+          <h3>Relay Channel 3 </h3>
+		  <div>Shows the status of the relay output.  Use the manual switch to change the state.  The settings button allows you to modify the behaviour of the relay output.</div>
+		  <h3>Light Sensor</h3>
+		  <div>Shows the measured light level at the sensor.  This is not a measurement of lux on the illuminated surface below the sensor.  Please use a light meter on the illuminated surface when setting Constant Light (automatic daylight harvesting).</div>
+		  <h3>Set Constant Light</h3>
+		  <div>
+		  <p>Constant light (automatic daylight harvesting) needs to be set-up either at night or with window shades closed.  A light meter is required to set constant light.</p>
+		  <ol>
+				  <li>. Modify the DALI Channel 1 output until the desired lux level is achieved on the light meter placed on the illuminated surface below the luminaires connected to DALI 1.  If you are not using Constant Light on DALI Channel 2, go to step 5.</li>
+				  <li> If Constant Light is required on luminaires connected to DALI Channel 2, modify the output until the desired lux level below the luminaires is achieved.  Make a note of the percentage difference between DALI Channel 2 and DALI Channel 1 (DALI 2 % - DALI 1 %).  This value (positive or negative) is the offset between the DALI channels.</li>
+				  <li> Press the DALI Channel 2 settings buttons and select Mimic Channel 1.  Then use the slider to select the offset value determined in step 2.</li>
+				  <li>Press Back and then Sync</li>
+				  <li>Using the light meter, check that the desired lux value is being achieved across the room.  Modify DALI Channel 1 if required (DALI Channel 2 will track with offset if being used).</li>
+				  <li>Press Set Constant Light.  This stores the current value read by the iDim Orbit light sensor into the Profile.</li>
+				  <li>Go to the Profile page and enable Constant Light on either (or both) Profile 1 and Profile 2.</li>
+				  <li>Press Sync.</li>
+				  <li>Turn DALI channel 1 off manually from a connected wall switch or via the app manual controls.  When DALI Channel 1 is turned back on, Constant Light will be enabled.</li>
+ 
+				  
+        </ol>
+		</div>
+		<h3>PIR Status</h3>
+		<div>
+		  This is an indicator to show when movement is being detected by the PIR.  It goes green when movement is detected and red when no movement is detected.  The settings button allows you to set an Exit Delay and enable/disable side facing PIRs on five movement detector models.
+		</div>
+
+        </div>
+        
+        
+    </body>
+</html>

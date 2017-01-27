@@ -1,0 +1,81 @@
+// !$*UTF8*$!
+{
+	DE51849516D2BF050087CBEA /* DLC */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = DLC;
+		sourceDirectories = (
+		);
+	};
+	DE51849B16D2BF060087CBEA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	DE51849C16D2BF060087CBEA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	DE566B4016CD57AB004516A9 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = DE51849516D2BF050087CBEA /* DLC */;
+		activeTarget = DE566B4816CD57AB004516A9 /* DLC */;
+		codeSenseManager = DE51849C16D2BF060087CBEA /* Code sense */;
+		executables = (
+			DE51849516D2BF050087CBEA /* DLC */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 382910213;
+			PBXWorkspaceStateSaveDate = 382910213;
+		};
+		sourceControlManager = DE51849B16D2BF060087CBEA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	DE566B4816CD57AB004516A9 /* DLC */ = {
+		activeExec = 0;
+		executables = (
+			DE51849516D2BF050087CBEA /* DLC */,
+		);
+	};
+}

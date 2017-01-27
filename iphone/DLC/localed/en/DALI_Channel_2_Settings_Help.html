@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>jQuery UI Accordion - Default functionality</title>
+                <link rel="stylesheet" href="../../jquery-ui.css">
+                    
+                        <script src="../../jquery-1.12.4.js"></script>
+                        <script src="../../jquery-ui.js"></script>
+                        <script>
+                            $( function() {
+                              $( "#accordion" ).accordion({
+                                collapsible: true,
+                                active : 'none'
+                                                         
+                                                          
+                            });
+                              } );
+                            </script>
+    </head>
+    <body>
+        
+        <div> <img width="100%" src="../../iDimOrbitGuideImage@2x.png"> </div>
+		<h1>DALI Channel 2 Settings Help</h1>
+		<div style="text-align:justify;">
+		<p>DALI Channel 2 can be configured to behave in a number of ways from this page.
+        </p>
+		
+		</div>
+		<h4>Features: (Touch for more information) </h4>
+        <div id="accordion">
+            <h3>Switch Inputs</h3>
+            <div>
+				<p>You can modify the functionality of the switch inputs for DALI channel 1 (inputs 5 and 6 on the manual switch interface).  This enables the use of different retractive (momentary) switch types:
+Single-Pole Switch = a simple push to make switch.  
+Double-Pole Switch = a centre-biased switch with an up and a down position.
+For more information, please refer to the Installation Guide.</p>
+            </div>
+			 <h3>Output Settings</h3>
+			 <div>Manual Control Only = The channel will only respond to manual switch control and will not be controlled by the PIR and Timers.
+PIR/Timer/Manual = Responds to presence detection from the PIR, will turn off automatically when no presence is detected and can be manually controlled.
+Mimic Channel 1 = Makes the channel follow channel 1 with a controllable offset.  Use this if constant light is required on DALI channel 2.  Manual switch inputs for channel 2 are redirected to channel 1 in this mode.</div>
+            <h3>DALI 2 Reset</h3>
+			
+            <div>
+				<p>
+				This can be used to reset settings in connected DALI load devices to optimise their control performance on iDim Orbit.
+				</p>
+            </div>
+         
+        </div>
+        
+        
+    </body>
+</html>

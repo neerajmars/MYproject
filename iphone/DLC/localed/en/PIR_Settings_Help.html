@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>jQuery UI Accordion - Default functionality</title>
+                <link rel="stylesheet" href="../../jquery-ui.css">
+                    
+                        <script src="../../jquery-1.12.4.js"></script>
+                        <script src="../../jquery-ui.js"></script>
+                        <script>
+                            $( function() {
+                              $( "#accordion" ).accordion({
+                                collapsible: true,
+                                active : 'none'
+                                                         
+                                                          
+                            });
+                              } );
+                            </script>
+    </head>
+    <body>
+        
+        <div> <img width="100%" src="../../iDimOrbitGuideImage@2x.png"> </div>
+		<h1>PIR Settings Help</h1>
+		<div style="text-align:justify;">
+		<p>This page enables settings related to the PIR to be modified.</p>
+		</div>
+		<h4>Features: (Touch for more information) </h4>
+        <div id="accordion">
+            <h3>Exit Delay</h3>
+            <div>
+				<p>This enables channels to be manually turned off in Presence Mode.  iDim Orbit will not allow channels with PIR/Timer/Manual enabled to be triggered on by the PIR after being manually turned off while movement is still being detected.  Only when no movement has been detected for the length of the Exit Delay will lights be triggered on by the PIR.</p>
+            </div>
+			
+			
+			 <h3>Enable/Disable Movement Detectors</h3>
+			 <div>
+			<p>Use this to modify the detection pattern of five sensor variants by turning off side facing PIRs.  Touch the side facing PIRs on the image.  Green is enabled, red is disabled.</p>
+			</div>
+		
+		 
+        </div>
+        
+        
+    </body>
+</html>
